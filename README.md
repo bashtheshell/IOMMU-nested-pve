@@ -112,7 +112,7 @@ Fortunately, I've created a [Python script](./add_vIOMMU.py) to simplify the job
 Just simply go to the L0 PVE's shell and run the commands below using the L1 PVE's VM ID. The script will not send a reboot signal and it'd passively wait for the VM to shutdown (not reboot as the script would be booting back up the VM).
 
 ```
-wget https://github.com/bashtheshell/IOMMU-nested-pve/blob/main/add_vIOMMU.py
+wget https://raw.githubusercontent.com/bashtheshell/IOMMU-nested-pve/main/add_vIOMMU.py
 python3 add_vIOMMU.py <vmid>
 ```
 
